@@ -1,0 +1,25 @@
+{
+  "name": "fcl-panic-issue",
+  "version": "1.0.0",
+  "description": "When Cadence scripts calls `panic` we are getting `failed to encode value: unsupported value: <nil>, <nil>`  instead of actual error we see in emulator output.",
+  "main": "index.js",
+  "dependencies": {
+    "@onflow/fcl": "^0.0.73",
+    "esm": "^3.2.25",
+    "prettier": "^2.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxStalker/fcl-panic-result.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxStalker/fcl-panic-result/issues"
+  },
+  "homepage": "https://github.com/MaxStalker/fcl-panic-result#readme"
+}
