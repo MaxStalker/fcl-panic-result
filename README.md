@@ -1,3 +1,10 @@
+# Solution
+I've discovered that Flow CLI on MacOS machine had version `0.20.0`, while one one Linux had latest (at time of this post) `0.24.0`.
+Updating the version to latest solved the issue.
+
+Case closed!
+-----------------------------
+
 # Problem
 When Cadence scripts calls `panic` we are getting `failed to encode value: unsupported value: <nil>, <nil>` instead of actual error we see in emulator output. This behaviour I encounter on my Mac, but not on Linux machine...
 
